@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/app_bar_main"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+                <FrameLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="28dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nozomi Resturent "
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Doha, Qatar"
+
+                            android:textColor="@color/colorWhiteTrans1"
+                            />
+
+                        <RatingBar
+                            android:id="@+id/ratingBar2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dp"
+                            android:rating="3.5"
+                            android:progressDrawable="@drawable/rating_bar_custom" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/len_click"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="50dp">
+
+                    </LinearLayout>
+
+
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center|left"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Date"
+                        />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:background="@drawable/curved_light_black_back"
+                            android:padding="10dp"
+                            android:gravity="center">
+                            <TextView
+                                android:id="@+id/txt_date"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="26-3-2919"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginEnd="15dp"
+                                android:textColor="@color/colorhash"
+                                android:layout_weight="0.1"
+                                android:paddingLeft="20dp"
+                                android:paddingStart="20dp"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/down_arrow"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginEnd="20dp"/>
+
+
+                        </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center|left"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/people"
+                        />
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Spinner
+                            android:id="@+id/spin_dining"
+                            android:layout_width="150dp"
+                            android:layout_height="30dp"
+                            android:clickable="true"
+                            android:layout_gravity="center"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:background="@drawable/curved_light_black_back"
+                            android:padding="10dp"
+                            android:gravity="center"
+                            android:layout_weight="0.1">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="5"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginEnd="15dp"
+
+                                android:paddingLeft="20dp"
+                                android:layout_weight="0.1"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/down_arrow"
+                                android:layout_marginRight="20dp"/>
+                        </LinearLayout>
+                    </FrameLayout>
+
+
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/please_choose_your_preferred_area_from_n_the_available_time_below"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"/>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_weight="0.1"/>
+
+
+                <Button
+                    android:id="@+id/btn_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/blue_button"
+                    android:padding="12dp"
+                    android:text="@string/book_a_table"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+   <include layout="@layout/loader"
+     />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+
+
+</FrameLayout>

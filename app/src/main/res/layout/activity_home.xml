@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+
+            android:id="@+id/drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu"
+                android:padding="10dp"/>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/colorSearchBox"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="0dp"
+                app:cardUseCompatPadding="false"
+                android:layout_weight="0.1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_vertical" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:gravity="center_vertical"
+                        android:text="Search....."
+                        android:textColor="@color/colorhash"/>
+
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <com.t.and.tt.CustomView.RoundImageView
+                android:id="@+id/actionBarProfile"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/user_icon">
+
+            </com.t.and.tt.CustomView.RoundImageView>
+
+        </LinearLayout>
+<!--        <android.support.v4.widget.NestedScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:orientation="vertical"
+                   >
+
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/pager_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                   >
+
+                    <ImageView
+                        android:id="@+id/img_restaurant"
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:src="@drawable/img_resturant"
+                        android:layout_marginTop="22dp"/>
+
+                    <ImageView
+                        android:id="@+id/img_sports"
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:src="@drawable/img_spors"
+                        android:layout_marginTop="22dp"/>
+
+                    <ImageView
+                        android:id="@+id/img_fitness"
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:layout_marginTop="22dp"
+                        android:src="@drawable/img_fitness" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+<!--        </android.support.v4.widget.NestedScrollView>-->
+<!--        ghjkh-->
+
+    </LinearLayout>
+
+    <include layout="@layout/loader"/>
+
+
+
+</FrameLayout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    >
+
+
+
+
+
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@color/colorPrimary">
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/pager_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        />
+                    <me.relex.circleindicator.CircleIndicator
+                        android:id="@+id/indicator"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="30dp"
+                        android:gravity="center"
+                        app:ci_drawable="@drawable/circleindicator_round"/>
+
+
+
+                </FrameLayout>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center|left"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:src="@drawable/ic_blck_round"/>
+                        <TextView
+                            android:id="@+id/txtServiceTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="CHEF’S GARDEN"
+                            android:textColor="@color/colorBlack"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="0.1"/>
+                        <RatingBar
+                            android:id="@+id/ratingBar2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dp"
+                            android:rating="3.5"
+                            android:progressDrawable="@drawable/rating_bar_custom" />
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/navi_round"
+                            android:layout_marginTop="3dp"/>
+
+
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <FrameLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/drawer_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_menu"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/menu"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="left|center"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/top_icon_wit_text"
+                        android:layout_gravity="center"/>
+                    <ImageView
+                        android:id="@+id/img_back"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/back"
+                        android:padding="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_gravity="right|center"/>
+
+
+                </FrameLayout>
+
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="0.1"
+                android:background="@color/colorWhite"
+                android:layout_weight="0.1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/gradient_bottom_navigation"
+                        android:text="Description"
+                        android:textColor="@color/colorBlack"
+                        android:layout_weight="0.1"
+                        android:padding="10dp"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Reviews"
+                        android:textColor="@color/colorBlack"
+                        android:layout_weight="0.1"
+                        android:padding="10dp"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="But I must explain to you how all this mistaken idea of
+denouncing pleasure and praising pain was born
+ and I will give you a complete account of the
+system, and expound the actual teachings
+ of the great explorer of the truth, the master-
+But I must explain to you how all this mistaken idea of
+denouncing pleasure and praising "
+                        android:textColor="@color/text_color"
+                        android:layout_margin="20dp"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/blue_button"
+            android:padding="12dp"
+            android:text="@string/find_a_table"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+    <include layout="@layout/loader"/>
+    </FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D90303</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#0E0E0E</color>
+    <color name="colorSearchBox">#333941</color>
+    <color name="colorhash">#707070</color>
+    <color name="colorDarkGray">#707070</color>
+    <color name="colorLiteBlack">#2D323B</color>
+    <color name="colorWhiteTrans">#11FFFFFF</color>
+    <color name="colorWhiteTrans1">#88FFFFFF</color>
+
+
+    <color name="red"> #FF0000</color>
+    <color name="orange">#FA6C00</color>
+    <color name="blue">#00A1ED</color>
+    <color name="green"> #00A820</color>
+    <color name="transprint">#00000000</color>
+    <color name="text_color">#565A5F</color>
+    <color name="time_back">#E8F7FD</color>
+
+</resources>

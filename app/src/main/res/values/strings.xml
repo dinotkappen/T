@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">T&amp;T</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="google_web_client_id">578823953746-27at1l7j3j9nnfilvc12kfqubrocti7n.apps.googleusercontent.com</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="log_in">Log In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="you_didn_t_have_an_account">you didn\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="or">Or</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="skip">Skip</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="already_you_have_account">Already you have account?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="confirm">Confirm</string>
+    <string name="alert">Alert !</string>
+    <string name="booking">Bookings</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="notifications">Notification</string>
+    <string name="about_us">About Us</string>
+    <string name="area_select">AREA SELECTION</string>
+    <string name="health_fitness"><![CDATA[Health & Fitness]]></string>
+    <string name="restaurant">Restaurant</string>
+    <string name="sports">Sports</string>
+    <string name="contact">Contact</string>
+    <string name="change_pwd">CHANGE PASSWORD</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="cancellation_policy">Cancellation policy</string>
+    <string name="_2019_t_t_all_rights_reserved"><![CDATA[© 2019 T&T. All rights reserved.]]></string>
+    <string name="table_booking"> TABLE BOOKING </string>
+    <string name="sports_booking"> SPORTS BOOKING </string>
+    <string name="gym_booking"> FITNESS &amp; HEALTH </string>
+    <string name="book_a_table"> BOOK A TABLE </string>
+    <string name="book_a_ground">BOOK A GROUND </string>
+    <string name="area_selection"> AREA SELECTION </string>
+    <string name="summery"> SUMMARY </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update">Update</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_password">New Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="find_a_table">Find a Table</string>
+    <string name="cousins">Cousins</string>
+    <string name="dining_style">Dining Style</string>
+    <string name="select_your_cousin">Select your cousin</string>
+    <string name="select_your_style">Select your style</string>
+    <string name="dress_code">Dress Code</string>
+    <string name="select_dress_code">select dress code</string>
+
+    <string name="permission_nessary">Permission necessary</string>
+    <string name="sotrageis_improtant">READ EXTERNAL STORAGE permission is necessary to write event!!!</string>
+    <string name="people">People</string>
+    <string name="please_choose_your_preferred_area_from_n_the_available_time_below">Please choose your preferred area from  \n The available time below</string>
+    <string name="send_us_a_message_and_we_ll_respond_n_as_soon_as_possible">Send us a message and we’ll respond \n as soon as possible.</string>
+    <string name="we_d_love_to_hear_n_from_you">We’d Love to Hear \n  From You.</string>
+    <string name="reserve_now">Reserve now</string>
+    <string name="area">Area</string>
+    <string name="name_">Name</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="find_ground">Find your ground</string>
+    <string name="find_gym">Book your Gym</string>
+    <string name="pay_cash">Pay cash</string>
+    <string name="pay_bycard">Pay byCard</string>
+    <string name="pay_bycasdgrd">Pay byCard</string>
+
+
+    <string name="validName">Please enter name</string>
+    <string name="validEmail"> Please enter valid email</string>
+    <string name="validPhone">Please enter valid phone number</string>
+    <string name="validPassword">Please enter password</string>
+    <string name="validPwdLength">You must have 8 characters in your password</string>
+    <string name="validConfrmPwd">Please enter the confirm password</string>
+    <string name="validPwdMissMatch">Password mismatch</string>
+    <string name="cancel">Cancel</string>
+    <string name="Failed">Failed</string>
+    <string name="No_internet_connection">No internet connection</string>
+    <string name="packages">Packages</string>
+
+
+</resources>

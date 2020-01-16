@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <include layout="@layout/app_bar_no_sid" />
+
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:layout_margin="20dp">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:text="But I must explain to you how all this mistaken idea of  denouncing pleasure and praising pain was born and I will give you a complete account of the  system, and expound the actual teachings of the great explorer of the truth, the master-
+But I must explain to you how all this mistaken idea of
+denouncing pleasure and praising But I must explain to you how all this mistaken idea of  denouncing pleasure and praising pain was born and I will give you a complete account of the  system, and expound the actual teachings of the great explorer of the truth, the master- But I must explain to you how all this mistaken idea of  denouncing pleasure and praising
+But I must explain to you how all this mistaken idea of  denouncing pleasure and praising pain was born and I will give you a complete account of the  system, and expound the actual teachings of the great explorer of the truth, the master-
+But I must explain to you how all this mistaken idea of
+denouncing pleasure and praising But I must explain to you how all this mistaken idea of  denouncing pleasure and praising pain was born and I will give you a complete account of the  system, and expound the actual teachings of the great explorer of the truth, the master- But I must explain to you how all this mistaken idea of  denouncing pleasure and praising  "/>
+
+           </LinearLayout>
+
+       </ScrollView>
+
+    </LinearLayout>
+    <include layout="@layout/loader"
+        />
+
+
+</FrameLayout>
